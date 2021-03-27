@@ -20,9 +20,9 @@ spring:
   application:
     name: admin
   datasource:
-     url: jdbc:mysql://localhost:3307/admin?characterEncoding=utf-8
+     url: jdbc:mysql://ci-mysql-test.ci-test:3306/admin?characterEncoding=utf-8
     username: root
-    password: shadowsocks
+    password: abcd@1234
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
